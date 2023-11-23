@@ -10,13 +10,8 @@
   
   .parent {
     display: flex;
-    justify-content: space-between;
-    width: 600px;
-    position: absolute;
-    left: 35%;
-    transform: translateX(-50%);
-    margin-top: 50px;
-    gap: 200px;
+    justify-content: space-around;
+    margin-top:100px ;
     
   
   }
@@ -26,10 +21,11 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(179, 19, 18);
-    padding: 20px;
+    padding: 30px;
     height: 400px;
-    width: 180px;
+    width: 400px;
     border-radius: 25px;
+    
   }
   
   .item-img {
